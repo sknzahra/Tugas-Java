@@ -1,0 +1,76 @@
+package belajarjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author user
+ */
+public class BelajarJava {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        //Mencetak Hello World
+        System.out.println("Hello World!");
+        
+        //Buat comment: Ctrl + /
+//        System.out.println("CCIT-FTUI");
+        
+        //string, int, boolean, double = data types
+        String name;
+        int age;
+        boolean condition;
+        double score;
+        
+        //name, age, condition, score = variable
+        //variable = tempat untuk menampung data
+        name = "Zahra";
+        age = 18;
+        condition = true;
+        score = 3.56;
+        
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(condition);
+        System.out.println(score);
+        
+        //Mengisi variable langsung
+        String idol = "EXO";
+        
+        //print = ke kanan, println = ke bawah
+        System.out.print("Masukkan nama anda: ");
+        //inisialisasi scanner, Scanner = object dan cetak = variable
+        //kalo lupa import util, pencet errornya, Alt + Enter
+        Scanner cetak = new Scanner (System.in);
+        //inisialisasi string, String = object dan input = variable
+        String input = cetak.nextLine();
+        System.out.println(input);
+        
+        //Buat un-comment, block semua comment, Ctrl + /
+        //Menggunakan input keyboard
+        System.out.print("Nama: ");
+        Scanner cetak4 = new Scanner (System.in);
+        String input4 = cetak4.nextLine();
+        System.out.println(input4);
+        
+        System.out.print("Hobby: ");
+        Scanner cetak1 = new Scanner (System.in);
+        String input1 = cetak1.nextLine();
+        System.out.println(input1);
+        
+        System.out.print("Kelebihan: ");
+        Scanner cetak2 = new Scanner (System.in);
+        String input2 = cetak2.nextLine();
+        System.out.println(input2);
+        
+        System.out.print("Kekurangan: ");
+        Scanner cetak3 = new Scanner (System.in);
+        String input3 = cetak3.nextLine();
+        System.out.println(input3);
+    }
+    
+}
